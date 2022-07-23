@@ -1,0 +1,23 @@
+.header-container {
+
+  height: 70px;
+  width: 100%;
+  background-color: #008f76;
+
+  &__nav {
+    width: 85%;
+  
+    margin-left: 350px;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    height: 65px;
+    width: 100%;
+    justify-content: space-around;
+
+    align-items: center;
+    color: white;
+  }
+}

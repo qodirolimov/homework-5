@@ -1,0 +1,88 @@
+.header {
+  &__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    color: #ffffff;
+    position: relative;
+    width: 209px;
+    height: 52px;
+    left: 496px;
+    cursor: pointer;
+    top: 60px;
+    background: #008f76;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+    border-radius: 20px;
+    &:hover {
+      background-color: rgb(0, 255, 38);
+      color: #ffffff;
+      transition: all 0.2s ease;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+    }
+  }
+  &__button__second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    color: #ffffff;
+    position: relative;
+    width: 209px;
+    height: 52px;
+    left: 776px;
+    top: 10px;
+    border: 2px solid #008f76;
+    color: #008f76;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03),
+      0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+    border-radius: 20px;
+
+    &:hover {
+      background-color: #008f76;
+      color: #ffffff;
+      transition: all 0.2s ease;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+}
+  }
+}
+
+.main__section__third__button__first {
+  left: 518px;
+  top: 112px;
+
+  font-weight: 500;
+  font-size: 24px;
+  position: relative;
+  width: 344px;
+  height: 68px;
+  color: #ffffff;
+  background: #008f76;
+  border: 1px solid #008f76;
+  border-radius: 20px;
+}
+
+.main__section__third__button__second {
+  padding: 10px 24px;
+  gap: 10px;
+  position: relative;
+  width: 262px;
+  height: 68px;
+  left: 555px;
+  top: 148px;
+  border: 1px solid #008f76;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}

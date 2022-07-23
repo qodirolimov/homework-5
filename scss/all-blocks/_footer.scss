@@ -1,0 +1,103 @@
+.footer {
+  width: 1440px;
+  height: 380px;
+  margin-top: 40px;
+
+  margin-left: 29px;
+  display: flex;
+
+  .footer__logo {
+    width: 52px;
+    height: 42px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  .footer__text {
+    width: 215px;
+    height: 36px;
+
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 200%;
+    left: 116px;
+    top: 103px;
+    color: #212121;
+  }
+  .footer__instagram__image{
+   width: 32px;
+   height: 32px;
+   position: relative;
+   top: 160px;
+   left: -198px;
+  }
+
+  .footer__facebook__image{
+   width: 32px;
+   height: 32px;
+   position: relative;
+   top: 160px;
+   left: -114px;
+  }
+
+  .footer__youtoube__image{
+   width: 32px;
+   height: 32px;
+   position: relative;
+   top: 160px;
+   left: -109px;
+  }
+  .footer__list{
+   position: relative;
+width: 643px;                        
+height: 180px;
+left: 297px;
+display: flex;
+top: 100px;
+
+  }
+
+  .footer__ul__list{
+   line-height: 200%;
+   list-style-type: none;
+   margin-left: 20px;
+   color: #949494;
+
+  }
+  .footer__list__item{
+   line-height: 240%;
+  }
+
+  .footer__ul__list__second{
+margin-left: 120px;
+list-style-type: none;
+  }
+
+  .footer__list__item__second{
+  line-height: 260%;
+
+  }
+
+  .footer__ul__list__third{
+   margin-left: 190px;
+list-style-type: none;
+  }
+
+  .footer__list__item__third{
+   line-height: 200%;
+  }
+
+  .footer__text__second{
+   width: 1440px;
+   height: 50px;
+   background:#008F76;
+   margin-top: 300px;
+   margin-left: -1000px;
+   color: white;
+   font-weight: 500;
+font-size: 18px;
+   padding-left: 590px;
+   padding-top: 20px;
+  }
+}
